@@ -19,17 +19,15 @@ public class Ex1 {
          * @return ans which represents the number in decimal base
          */
         public static int number2Int(String num) {
-            int ans = 0;
+            int ans = 0 , value = 0;
             // add your code here
             if(!isNumber(num)) {
                 return -1;
             }
-            else{
-                int bPlace = getBPlace(num);
-                for(int i = 0; i < bPlace; i++){
-                    //ans += (int) (Integer.parseInt(num[bPlace+1]) * Math.pow(Integer.valueOf(num[i]) , i));
-                    ans += Integer.parseInt(num)
-                }
+            else
+            {
+                int basis = getBasis(num);
+
             }
 
             ////////////////////
@@ -45,16 +43,61 @@ public class Ex1 {
             }
             return place;
         }
+        public static int getBasis(String str){
+            int base = 0;
+
+            for(int i = getBPlace(str); i < str.length(); i++){
+                base = str.charAt(i);
+            }
+
+            return base;
+        }
         /**
          * This static function checks if the given String (g) is in a valid "number" format.
          * @param a a String representing a number
-         * @return true iff the given String is in a number format
+         * @return true if the given String is in a number format
          */
         public static boolean isNumber(String a) {
-            boolean ans = true;
-            // add your code here
+            boolean ans = false;
+            char[] check = a.toCharArray();
+            //Not null
+            if(a.isBlank() || a.isEmpty())
+                return false;
+            //Contains 'b'
+            for(int i = 0 ; i < a.length(); i++){
+                if(check[i] == 'b'){
+                    ans = true;
+                    break;
+                }
+            }
 
-            ////////////////////
+            //has a number before b and that number is not empty
+            char[] divider = a.toCharArray();
+            if(a.length() > 2){
+                String[] str = a.split("b");
+                if(str[0].isEmpty() || str[0].equals(""))
+                    return false;
+                else
+                {
+                    ans = true;
+                }
+            }
+            else {
+                return false;
+            }
+
+
+            /*
+            //all of the numbers before b are smaller than the base
+            for(int i = 0 ; i < a.length(); i++){
+                if(Integer.parseInt(String.valueOf(a.charAt(i))) > Integer.parseInt(str[1]))
+                    return false; ///check!
+
+            }
+
+
+             */
+
             return ans;
         }
 
