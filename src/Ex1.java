@@ -27,7 +27,9 @@ public class Ex1 {
             else
             {
                 //int basis = getBasis(num);
-
+                for(int i =0 ; i < num.length(); i++){
+                   // ans += Integer.parseInt(String.valueOf(getLeftSide(str[]).));
+                }
             }
 
             ////////////////////
@@ -48,6 +50,13 @@ public class Ex1 {
             }
             return false;
         }
+
+    /**
+     * need to fix!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+     * @param str
+     * @return
+     */
+    /*
     public static boolean containsValidCharacter(String str){
         boolean ans = false;
         for(int i = 0; i < str.charAt(i); i++){
@@ -61,6 +70,8 @@ public class Ex1 {
         return ans;
     }
 
+
+     */
     /**
      * determines if the letters in the String are in the required format
      * @param str

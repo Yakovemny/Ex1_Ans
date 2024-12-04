@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="need to complete the is valid method">
+    <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="need to complete the isvalid method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Ex1Main.executor": "Run",
     "Application.checking.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.Ex1Test.executor": "Run",
@@ -86,7 +86,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ex1Test.isNumber">
+  <component name="RunManager" selected="Application.Ex1Main">
+    <configuration name="Ex1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex1Main" />
+      <module name="Ex1Solution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="checking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="checking" />
       <module name="Ex1Solution" />
@@ -125,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex1Main" />
         <item itemvalue="JUnit.Ex1Test.isNumber" />
         <item itemvalue="Application.checking" />
         <item itemvalue="JUnit.Ex1Test.isEmpty" />
@@ -155,7 +163,7 @@
       <workItem from="1733137951795" duration="1417000" />
       <workItem from="1733159927225" duration="892000" />
       <workItem from="1733216221982" duration="2289000" />
-      <workItem from="1733319705963" duration="10440000" />
+      <workItem from="1733319705963" duration="10998000" />
     </task>
     <task id="LOCAL‎-00001" summary="uploaded to github">
       <option name="closed" value="true" />
@@ -189,7 +197,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733336781667</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎-00005" summary="need to complete the isvalid method">
+      <option name="closed" value="true" />
+      <created>1733340616979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733340616979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +226,7 @@
     <MESSAGE value="uploaded to github" />
     <MESSAGE value="This class contains the Ex1 Ans" />
     <MESSAGE value="need to complete the is valid method" />
-    <option name="LAST_COMMIT_MESSAGE" value="need to complete the is valid method" />
+    <MESSAGE value="need to complete the isvalid method" />
+    <option name="LAST_COMMIT_MESSAGE" value="need to complete the isvalid method" />
   </component>
 </project>
