@@ -52,6 +52,9 @@ public class Ex1 {
 
             return base;
         }
+        public static boolean baseIsNotEmpty(String str){
+            return false;
+        }
         /**
          * This static function checks if the given String (g) is in a valid "number" format.
          * @param a a String representing a number
@@ -71,11 +74,11 @@ public class Ex1 {
                 }
             }
 
-            //has a number before b and that number is not empty
-            char[] divider = a.toCharArray();
+            //has a number before b and that number is not empty or that the number before b is a positive number
+            //the number before b and after b are not equal
+            String[] str = a.split("b");
             if(a.length() > 2){
-                String[] str = a.split("b");
-                if(str[0].isEmpty() || str[0].equals(""))
+                if(str[0].isEmpty() || str[0].equals("") || str[0].equals("0") || Integer.parseInt(str[0]) < 0 || str[0].equals(str[1])  )//||baseIsNotEmpty()
                     return false;
                 else
                 {
@@ -85,18 +88,18 @@ public class Ex1 {
             else {
                 return false;
             }
+            //
 
 
-            /*
-            //all of the numbers before b are smaller than the base
+            //all of the numbers before b are  bigger than the base
             for(int i = 0 ; i < a.length(); i++){
-                if(Integer.parseInt(String.valueOf(a.charAt(i))) > Integer.parseInt(str[1]))
-                    return false; ///check!
-
+               // if(Integer.parseInt(String.valueOf(str[0].charAt(i)) > Integer.parseInt(str[1]))
+                //    return false;
             }
+           // ans = true;
 
 
-             */
+
 
             return ans;
         }
@@ -121,7 +124,7 @@ public class Ex1 {
          * Checks if the two numbers have the same value.
          * @param n1 first number
          * @param n2 second number
-         * @return true iff the two numbers have the same values.
+         * @return true if the two numbers have the same values.
          */
         public static boolean equals(String n1, String n2) {
             boolean ans = true;
