@@ -24,13 +24,14 @@ public class checking {
         }
         System.out.println(split[0].isEmpty());
         //connect = "b1234567";
-        connect = "12345b";
+        connect = "123b";
         String[] st = connect.split("b"); //
         for(int i =0 ; i < st.length; i++){ //1234567
             System.out.print(st[i] + " ");
         }
+        System.out.println("length"+st.length);
         System.out.println("...........");
-        System.out.println(Ex1.getBasis("12345b"));
+        //System.out.println(Ex1.getBasis("12345b"));
 
     }
 }

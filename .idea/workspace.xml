@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="This class contains the Ex1 Ans">
-      <change afterPath="$PROJECT_DIR$/src/checking.java" afterDir="false" />
+    <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="need to complete the is valid method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Yakovemny"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9bb6f30e-9851-4f55-8663-3ab1a4023a03" />
+        <option name="url" value="https://github.com/Yakovemny/Ex1_Ans.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -40,6 +54,7 @@
     "Application.checking.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.Ex1Test.executor": "Run",
+    "JUnit.Ex1Test.isEmpty.executor": "Run",
     "JUnit.Ex1Test.isNumber.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -71,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.checking">
+  <component name="RunManager" selected="JUnit.Ex1Test.isNumber">
     <configuration name="checking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="checking" />
       <module name="Ex1Solution" />
@@ -88,6 +103,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex1Test.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex1Solution" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ex1Test" />
+      <option name="METHOD_NAME" value="isEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex1Test.isNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ex1Solution" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,9 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.checking" />
-        <item itemvalue="JUnit.Ex1Test" />
         <item itemvalue="JUnit.Ex1Test.isNumber" />
+        <item itemvalue="Application.checking" />
+        <item itemvalue="JUnit.Ex1Test.isEmpty" />
+        <item itemvalue="JUnit.Ex1Test" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +155,7 @@
       <workItem from="1733137951795" duration="1417000" />
       <workItem from="1733159927225" duration="892000" />
       <workItem from="1733216221982" duration="2289000" />
-      <workItem from="1733319705963" duration="6672000" />
+      <workItem from="1733319705963" duration="10440000" />
     </task>
     <task id="LOCAL‎-00001" summary="uploaded to github">
       <option name="closed" value="true" />
@@ -155,7 +181,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733167111871</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎-00004" summary="need to complete the is valid method">
+      <option name="closed" value="true" />
+      <created>1733336781666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733336781667</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +209,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uploaded to github" />
     <MESSAGE value="This class contains the Ex1 Ans" />
-    <option name="LAST_COMMIT_MESSAGE" value="This class contains the Ex1 Ans" />
+    <MESSAGE value="need to complete the is valid method" />
+    <option name="LAST_COMMIT_MESSAGE" value="need to complete the is valid method" />
   </component>
 </project>

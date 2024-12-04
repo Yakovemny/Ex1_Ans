@@ -26,82 +26,91 @@ public class Ex1 {
             }
             else
             {
-                int basis = getBasis(num);
+                //int basis = getBasis(num);
 
             }
 
             ////////////////////
             return ans;
         }
-        public static int getBPlace(String str){
-            int place = 0;
-            for (int i =0; i < str.length(); i++){
-                if(str.charAt(i) == 'b')
-                {
-                    place = i;
-                }
-            }
-            return place;
-        }
-        public static int getBasis(String str){
-            int base = 0;
 
-            for(int i = getBPlace(str); i < str.length(); i++){
-                base = str.charAt(i);
-            }
 
-            return base;
-        }
-        public static boolean baseIsNotEmpty(String str){
+    /**
+     * determines if there are any 'space' characters if there are it returns true else returns false.
+     * @param str
+     * @return
+     */
+    public static boolean isEmpty(String str){
+            char[] getChars = str.toCharArray();
+            for(int i = 0;i < getChars.length; i++){
+                if(str.charAt(i) == ' ')
+                    return true;
+            }
             return false;
         }
+    public static boolean containsValidCharacter(String str){
+        boolean ans = false;
+        for(int i = 0; i < str.charAt(i); i++){
+            if(str.charAt(i) == 'A' || str.charAt(i) == 'B' ||str.charAt(i) == 'C' ||str.charAt(i) == 'D' ||str.charAt(i) == 'E' ||str.charAt(i) == 'F' ||str.charAt(i) == 'G')
+        }
+        int index = 0;
+        while(index < str.length())
+        {
+
+        }
+        return ans;
+    }
+
+    /**
+     * determines if the letters in the String are in the required format
+     * @param str
+     * @return
+     */
+    public static boolean validFormatCharacters(String str){
+        return false;
+    }
         /**
-         * This static function checks if the given String (g) is in a valid "number" format.
+         * This static function checks if the given String (a) is in a valid "number" format.
          * @param a a String representing a number
          * @return true if the given String is in a number format
          */
         public static boolean isNumber(String a) {
             boolean ans = false;
             char[] check = a.toCharArray();
-            //Not null
-            if(a.isBlank() || a.isEmpty())
+            //does not contain any space chars. aka ' '
+            if(isEmpty(a)){
                 return false;
-            //Contains 'b'
-            for(int i = 0 ; i < a.length(); i++){
-                if(check[i] == 'b'){
-                    ans = true;
-                    break;
-                }
-            }
-
-            //has a number before b and that number is not empty or that the number before b is a positive number
-            //the number before b and after b are not equal
-            String[] str = a.split("b");
-            if(a.length() > 2){
-                if(str[0].isEmpty() || str[0].equals("") || str[0].equals("0") || Integer.parseInt(str[0]) < 0 || str[0].equals(str[1])  )//||baseIsNotEmpty()
-                    return false;
-                else
-                {
-                    ans = true;
-                }
             }
             else {
-                return false;
+                //Not null
+                if (a.isBlank() || a.isEmpty())
+                    return false;
+                //Contains 'b'
+                for (int i = 0; i < a.length(); i++) {
+                    if (check[i] == 'b') {
+                        ans = true;
+                        break;
+                    }
+                }
+
+                //has a number before b and that number is not empty
+                //that the number before b is a positive number
+                //the number before b and after b are not equal
+                //that before and after b there is a base
+                String[] str = a.split("b");
+                if (a.length() > 2 && str.length > 1) {
+                    if (str[0].equals("") || str[0].equals("0") || Integer.parseInt(str[0]) < 0 || str[0].equals(str[1]))
+                        return false;
+                    else {
+                        ans = true;
+                    }
+                } else {
+                    return false;
+                }
+
+
+                return ans;
             }
-            //
-
-
-            //all of the numbers before b are  bigger than the base
-            for(int i = 0 ; i < a.length(); i++){
-               // if(Integer.parseInt(String.valueOf(str[0].charAt(i)) > Integer.parseInt(str[1]))
-                //    return false;
-            }
-           // ans = true;
-
-
-
-
-            return ans;
         }
 
         /**
