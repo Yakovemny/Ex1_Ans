@@ -1,5 +1,4 @@
-
-/**
+ /**
  * This class represents a simple solution for Ex1.
  * As defined here: https://docs.google.com/document/d/1AJ9wtnL1qdEs4DAKqBlO1bXCM6r6GJ_J/r/edit/edit
  * In this assignment, we will design a number formatting converter and calculator.
@@ -50,32 +49,21 @@ public class Ex1 {
             }
             return false;
         }
-
-    /**
-     * need to fix!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-     * @param str
-     * @return
-     */
-    /*
-    public static boolean containsValidCharacter(String str){
-        boolean ans = false;
-        for(int i = 0; i < str.charAt(i); i++){
-            if(str.charAt(i) == 'A' || str.charAt(i) == 'B' ||str.charAt(i) == 'C' ||str.charAt(i) == 'D' ||str.charAt(i) == 'E' ||str.charAt(i) == 'F' ||str.charAt(i) == 'G')
+    public static boolean isValidBase(String base){
+        if(base.length() == 1){
+            char baseChar = base.charAt(0);
+           if ((baseChar >= '2' && baseChar <= '9') || (baseChar >= 'A' && baseChar <= 'G'))
+            return true;
         }
-        int index = 0;
-        while(index < str.length())
-        {
-
-        }
-        return ans;
+        return false;
     }
 
 
-     */
     /**
      * determines if the letters in the String are in the required format
      * @param str
      * @return
+     *
      */
     public static boolean validFormatCharacters(String str){
         return false;
@@ -109,7 +97,7 @@ public class Ex1 {
                 //the number before b and after b are not equal
                 //that before and after b there is a base
                 String[] str = a.split("b");
-                if (a.length() > 2 && str.length > 1) {
+                if (a.length() > 2 && str.length > 1 && isValidBase(str[1])) {
                     if (str[0].equals("") || str[0].equals("0") || Integer.parseInt(str[0]) < 0 || str[0].equals(str[1]))
                         return false;
                     else {
