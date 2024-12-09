@@ -34,8 +34,9 @@ public class Ex1Main {
                     //String[] numA = num1.split("b");
                     System.out.println("num1 : " + num1 + " value : " + Ex1.number2Int(num1));
                     System.out.println("num2 : " + num2 + " value : " + Ex1.number2Int(num2));
-
-
+                    System.out.println(num1 + " + " + num2 + " = "  );
+                    System.out.println(num1 + " * " + num2 + " = "  );
+                    System.out.println("Max number over ["+num1+"," + num2+"] is : ");
                 }
                 /////////////////////
             }

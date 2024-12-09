@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * This class represents a simple solution for Ex1.
  * As defined here: https://docs.google.com/document/d/1AJ9wtnL1qdEs4DAKqBlO1bXCM6r6GJ_J/r/edit/edit
@@ -11,8 +13,12 @@
  * You should implement the following static functions:
  */
 public class Ex1 {
-
-    public static int convert2Basis10(String a) {
+    /**
+     * This method converts a number 'a' to its decimal representation
+     * @param a
+     * @return
+     */
+    public static int convert2Basis10(String a ) {
         int ans = 0;
 
         // Handle cases where there's no 'b', default to base 10
@@ -69,6 +75,56 @@ public class Ex1 {
         return ans;
     }
 
+    public static int convertBasis(String a , int newBase ) {
+        int ans = 0;
+
+        // Handle cases where there's no 'b', default to base 10
+        if (!a.contains("b")) {
+            a = a + "b10"; // Assume the number is in base 10 if no base is specified
+        }
+
+        String[] num = a.split("b");
+        // Check if input format is valid
+        if (num.length != 2 || num[0].isEmpty()) {
+            System.out.println("Invalid input format: " + a);
+            return -1; // Return -1 for invalid input
+        }
+
+        // Handle the case where the base part is missing, assume base 10
+        if (num[1].isEmpty()) {
+            num[1] = "10";
+        }
+
+        // Parse the number part and base
+        String numberPart = num[0];
+        int base = newBase;
+
+        // Check if the base is within the valid range [2-16]
+        if (base < 2 || base > 16) {
+            System.out.println("Base out of range: " + base);
+            return -1;
+        }
+
+        // Iterate over the number part
+        for (int i = 0; i < numberPart.length(); i++) {
+            int j = numberPart.length() - i - 1; // Position from right
+            char c = numberPart.charAt(i);
+
+            // Determine the value of the current character
+            int digitValue = Character.isDigit(c) ? c - '0' : Character.toUpperCase(c) - 'A' + 10;
+
+            // Check if the digit is valid for the base
+            if (digitValue < 0 || digitValue >= base) {
+                System.out.println("Invalid digit '" + c + "' for base " + base);
+                return -1; // Return -1 for invalid digits
+            }
+
+            // Calculate the contribution of this digit
+            ans += digitValue * Math.pow(base, j);
+        }
+
+        return ans;
+    }
 
     /**
      * Convert the given number (num) to a decimal representation (as int).
@@ -193,10 +249,10 @@ public class Ex1 {
  * @return a String representing a number (in base) equals to num, or an empty String (in case of wrong input).
  */
 public static String int2Number(int num, int base) {
-    String ans = "";
+    String ans = ""; //we will use String Builder
     // add your code here
+    convertBasis()
 
-    ////////////////////
     return ans;
 }
 

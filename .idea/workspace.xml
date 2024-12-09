@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="now working on int2Num">
-      <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="now working on int2Num" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +174,7 @@
       <workItem from="1733673799626" duration="5096000" />
       <workItem from="1733731069716" duration="7615000" />
       <workItem from="1733742862288" duration="200000" />
-      <workItem from="1733743334275" duration="289000" />
+      <workItem from="1733743334275" duration="910000" />
     </task>
     <task id="LOCAL‎-00001" summary="uploaded to github">
       <option name="closed" value="true" />
@@ -267,7 +264,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733743445455</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL‎-00012" summary="now working on int2Num">
+      <option name="closed" value="true" />
+      <created>1733743630188</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733743630188</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
