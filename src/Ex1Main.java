@@ -31,14 +31,19 @@ public class Ex1Main {
                     System.out.println("ERR: num"+ index+ " is in the wrong format" + " is Number: "+Ex1.isNumber(num2) + " value : " + Ex1.number2Int(num2));
                 }
                 else {
+                    int b10numA = Ex1.number2Int(num1);
+                    int b10numB = Ex1.number2Int(num2);
+                    int mulNums = b10numA*b10numB;
+                    int addNums = b10numA+b10numB;
                     //String[] numA = num1.split("b");
                     System.out.println("num1 : " + num1 + " value : " + Ex1.number2Int(num1));
                     System.out.println("num2 : " + num2 + " value : " + Ex1.number2Int(num2));
-                    System.out.println(num1 + " + " + num2 + " = "  );
-                    System.out.println(num1 + " * " + num2 + " = "  );
-                    System.out.println("Max number over ["+num1+"," + num2+"] is : ");
+                    System.out.println("Enter a base for output: (a number [2,16]");
+                    int base = sc.nextInt();
+                    System.out.println(num1 + " + " + num2 + " = " + Ex1.int2Number(b10numA+b10numB , base  ));
+                    System.out.println(num1 + " * " + num2 + " = " +Ex1.int2Number(b10numA*b10numB , base  ));
+                    System.out.println("Max number over ["+num1+"," + num2+","+Ex1.int2Number(b10numA+b10numB , base) + "," +Ex1.int2Number(b10numA*b10numB , base  )+"] is : "+Math.max(Math.max(Math.max(b10numA , b10numB), addNums), mulNums));
                 }
-                /////////////////////
             }
         }
         System.out.println("quiting now...");
