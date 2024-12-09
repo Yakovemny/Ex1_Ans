@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="need to complete the isvalid method">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +33,12 @@
     &quot;assignee&quot;: &quot;Yakovemny&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="9bb6f30e-9851-4f55-8663-3ab1a4023a03" />
-        <option name="url" value="https://github.com/Yakovemny/Ex1_Ans.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Yakovemny/Ex1_Ans.git&quot;,
+    &quot;accountId&quot;: &quot;e5fea2d8-261a-4f30-ac86-f73cd3677ad9&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -50,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Ex1.executor&quot;: &quot;Run&quot;,
     &quot;Application.Ex1Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.checking.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
@@ -74,6 +75,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -137,8 +139,8 @@
         <item itemvalue="JUnit.Ex1Test.isNumber" />
         <item itemvalue="Application.Ex1Main" />
         <item itemvalue="Application.checking" />
-        <item itemvalue="JUnit.Ex1Test.isEmpty" />
         <item itemvalue="JUnit.Ex1Test" />
+        <item itemvalue="JUnit.Ex1Test.isEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,11 @@
       <workItem from="1733397120077" duration="994000" />
       <workItem from="1733429580538" duration="2256000" />
       <workItem from="1733432427076" duration="659000" />
-      <workItem from="1733480588980" duration="1189000" />
+      <workItem from="1733480588980" duration="6428000" />
+      <workItem from="1733487626774" duration="1453000" />
+      <workItem from="1733651854371" duration="546000" />
+      <workItem from="1733673799626" duration="5096000" />
+      <workItem from="1733731069716" duration="1708000" />
     </task>
     <task id="LOCAL‎-00001" summary="uploaded to github">
       <option name="closed" value="true" />
@@ -221,7 +227,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733341325067</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎-00007" summary="need to complete the isvalid method">
+      <option name="closed" value="true" />
+      <created>1733481999210</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733481999210</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

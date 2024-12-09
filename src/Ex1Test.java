@@ -22,7 +22,8 @@ class Ex1Test {
         assertTrue(Ex1.isNumber("100111b2"));
         assertTrue(Ex1.isNumber("012b5"));
         assertTrue(Ex1.isNumber("123bG"));
-        //assertTrue(Ex1.isNumber("EFbG"));
+        assertTrue(Ex1.isNumber("EFbG"));
+        assertTrue(Ex1.isNumber("1234"));
 
     }
 

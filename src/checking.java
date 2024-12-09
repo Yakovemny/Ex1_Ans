@@ -32,6 +32,11 @@ public class checking {
         System.out.println("length"+st.length);
         System.out.println("...........");
         //System.out.println(Ex1.getBasis("12345b"));
+        String num = "12b34";
+        String chars = "abcd";
+        String[] num1 = num.split("b");
+        System.out.println(num.charAt(0));
+        System.out.println(num1[0].charAt(0));
 
     }
 }
