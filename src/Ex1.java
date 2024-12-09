@@ -210,9 +210,9 @@ public static String int2Number(int num, int base) {
 public static boolean equals(String n1, String n2) {
     boolean ans = true;
     // add your code here
-
-    ////////////////////
-    return ans;
+    int num1 = convertBasis(n1, 10);
+    int num2 = convertBasis(n2, 10);
+    return num1 == num2;
 }
 
 /**
