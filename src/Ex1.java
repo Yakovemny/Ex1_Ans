@@ -72,8 +72,7 @@ public class Ex1 {
      * @return ans which represents the number in decimal base
      */
     public static int number2Int(String num) {
-        int ans = 0, value = 0;
-        // add your code here
+        int ans = 0;
         if (!isNumber(num)) {
             return -1;
         } else {

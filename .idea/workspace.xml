@@ -59,6 +59,7 @@
     "JUnit.Ex1Test.isNumber.executor": "Run",
     "JUnit.Ex1Test.isValidBase.executor": "Run",
     "JUnit.Ex1Test.isValidForBase.executor": "Run",
+    "JUnit.Ex1Test.maxIndex.executor": "Run",
     "JUnit.Ex1Test.testEquals.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -93,14 +94,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ex1Test.testEquals">
-    <configuration name="Ex1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex1Main" />
-      <module name="Ex1Solution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Ex1Test.isValidForBase">
     <configuration name="Ex1Test.convert2Basis10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ex1Solution" />
       <option name="PACKAGE_NAME" value="" />
@@ -131,6 +125,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex1Test.maxIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex1Solution" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ex1Test" />
+      <option name="METHOD_NAME" value="maxIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex1Test.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ex1Solution" />
       <option name="PACKAGE_NAME" value="" />
@@ -143,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Ex1Test.testEquals" />
         <item itemvalue="JUnit.Ex1Test.isValidForBase" />
+        <item itemvalue="JUnit.Ex1Test.maxIndex" />
+        <item itemvalue="JUnit.Ex1Test.testEquals" />
         <item itemvalue="JUnit.Ex1Test.isValidBase" />
         <item itemvalue="JUnit.Ex1Test.convert2Basis10" />
-        <item itemvalue="Application.Ex1Main" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +192,7 @@
       <workItem from="1733742862288" duration="200000" />
       <workItem from="1733743334275" duration="910000" />
       <workItem from="1733750442857" duration="4576000" />
-      <workItem from="1733772407502" duration="2031000" />
+      <workItem from="1733772407502" duration="3030000" />
     </task>
     <task id="LOCAL‎-00001" summary="uploaded to github">
       <option name="closed" value="true" />
@@ -318,7 +322,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733773742417</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL‎-00017" summary="now working on Testing :)">
+      <option name="closed" value="true" />
+      <created>1733774482515</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL‎-00017" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733774482515</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

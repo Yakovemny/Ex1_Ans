@@ -66,11 +66,15 @@ class Ex1Test {
 
     @Test
     void isValidForBase() {
-        String[] a = {"100111b2", "12345b6","012b5", "123bG", "EFbG"};
+        String[] a = {"100111b2", "12345b6","012b5"};
         for(int i =0 ; i < a.length; i++){
             String[] temp = a[i].split("b");
-            //if(Integer.parseInt(temp[i]) > 8)
-            assertEquals(true, Ex1.isValidForBase(temp[0] , Integer.parseInt(String.valueOf(temp[1]))));
+            assertEquals(true, Ex1.isValidForBase(temp[0] , Ex1.convert2Basis10(temp[1])));
+        }
+        String[] b ={"123bG", "EFbG"};
+        for(int i =0 ; i < b.length; i++){
+            String[] temp = b[i].split("b");
+            assertEquals(true, Ex1.isValidForBase(temp[0] , 16));
         }
     }
 
@@ -85,5 +89,7 @@ class Ex1Test {
 
     @Test
     void maxIndex() {
+        String[] a = {"100111b2", "12345b6","012b5", "123bG", "EFbG"};
+        assertEquals(1 , Ex1.maxIndex(a));
     }
 }
