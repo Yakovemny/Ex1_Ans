@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 class Ex1Test {
 
@@ -30,5 +29,14 @@ class Ex1Test {
     @Test
     void isEmpty() {
         assertTrue(Ex1.isEmpty("1234 345"));
+    }
+
+    @Test
+    void convertBasis() {
+        String[] a = {"12345" , "3b4"};
+        for(int i =0 ; i < a.length; i++){
+            //assertEquals((Integer.parseInt(a[i])) , Ex1.convertBasis(a[i] , 10));
+        }
+        assertEquals(38 , Ex1.convertBasis("123b5" , 10));
     }
 }
