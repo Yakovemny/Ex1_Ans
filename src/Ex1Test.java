@@ -37,6 +37,6 @@ class Ex1Test {
         for(int i =0 ; i < a.length; i++){
             //assertEquals((Integer.parseInt(a[i])) , Ex1.convertBasis(a[i] , 10));
         }
-        assertEquals(38 , Ex1.convertBasis("123b5" , 10));
+        assertEquals(38 , Ex1.convert2Basis10("123b5"));
     }
 }

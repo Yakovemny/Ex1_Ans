@@ -12,7 +12,7 @@
  */
 public class Ex1 {
 
-    public static int convertBasis(String a, int dest_base) {
+    public static int convert2Basis10(String a) {
         int ans = 0;
 
         // Handle cases where there's no 'b', default to base 10
@@ -21,7 +21,6 @@ public class Ex1 {
         }
 
         String[] num = a.split("b");
-
         // Check if input format is valid
         if (num.length != 2 || num[0].isEmpty()) {
             System.out.println("Invalid input format: " + a);
@@ -84,7 +83,7 @@ public class Ex1 {
         if (!isNumber(num)) {
             return -1;
         } else {
-            ans = convertBasis(num , 10);
+            ans = convert2Basis10(num );
         }
 
         return ans;
@@ -210,8 +209,8 @@ public static String int2Number(int num, int base) {
 public static boolean equals(String n1, String n2) {
     boolean ans = true;
     // add your code here
-    int num1 = convertBasis(n1, 10);
-    int num2 = convertBasis(n2, 10);
+    int num1 = convert2Basis10(n1);
+    int num2 = convert2Basis10(n2);
     return num1 == num2;
 }
 
