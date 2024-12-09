@@ -29,6 +29,8 @@ class Ex1Test {
     @Test
     void isEmpty() {
         assertTrue(Ex1.isEmpty("1234 345"));
+        assertTrue(Ex1.isEmpty(" 1234345"));
+        assertTrue(Ex1.isEmpty(" 1234345 "));
     }
 
     @Test
@@ -38,5 +40,44 @@ class Ex1Test {
             //assertEquals((Integer.parseInt(a[i])) , Ex1.convertBasis(a[i] , 10));
         }
         assertEquals(38 , Ex1.convert2Basis10("123b5"));
+    }
+
+    @Test
+    void convert2Basis10() {
+        String[] a = {"100111b2", "12345b6","012b5", "123bG", "EFbG"};
+        int[] compare = {39,1865,7,291,239};
+        for(int i =0 ; i < a.length; i++){
+            assertEquals(compare[i], Ex1.convert2Basis10(a[i]));
+        }
+    }
+
+    @Test
+    void isValidBase() {
+        String[] a = {"2","3","4","5","6","7","8","9", "A", "B", "C", "D", "E", "F", "G"};
+        String[] falses = {"0" , "1" , "10", "11" , "12" , "13", "14", "15", "16" , "17"};
+        for(int i =0 ; i < a.length; i++){
+            assertEquals(true,Ex1.isValidBase(a[i]));
+        }
+        for(int i =0 ; i < falses.length; i++){
+            assertEquals(false,Ex1.isValidBase(falses[i]));
+        }
+
+    }
+
+    @Test
+    void isValidForBase() {
+
+    }
+
+    @Test
+    void getValue() {
+    }
+
+    @Test
+    void testEquals() {
+    }
+
+    @Test
+    void maxIndex() {
     }
 }
