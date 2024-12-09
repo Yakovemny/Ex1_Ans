@@ -76,6 +76,13 @@ class Ex1Test {
             String[] temp = b[i].split("b");
             assertEquals(true, Ex1.isValidForBase(temp[0] , 16));
         }
+
+        String[] c = {"34356b5", "123456b6", "012468b7"};
+        for (int i = 0; i < c.length; i++) {
+            String[] temp = c[i].split("b");
+            assertEquals(false, Ex1.isValidForBase(temp[0], Ex1.convert2Basis10(temp[1])));
+        }
+
     }
 
     @Test

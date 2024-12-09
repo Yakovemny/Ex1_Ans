@@ -118,7 +118,7 @@ public class Ex1 {
      */
     public static boolean isValidForBase(String numberPart, int base) {
         for (char c : numberPart.toCharArray()) {
-            int value = Character.isDigit(c) ? c - '0' : c - 'A' + 10; //either it's a num or a character
+            int value = Character.isDigit(c) ? c - '0' : c - 'A' + 10; //checks if it's a num or a character
             if (value >= base) return false; // Invalid digit for base.
         }
         return true;
@@ -136,7 +136,7 @@ public class Ex1 {
         if(isEmpty(a) || a.isBlank()){
             return false;
         }
-        //to ensure that there won't be any case of two b's or al least one b
+        //to ensure that there won't be any case of two b's or at least one b
         int bIndex = a.indexOf('b');
         // if there are no b's in the input it will check if the input contains only numbers.
         if (bIndex <= 0 || bIndex == a.length() - 1 || a.indexOf('b') != a.lastIndexOf('b')) {
