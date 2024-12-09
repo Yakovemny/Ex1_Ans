@@ -66,15 +66,21 @@ class Ex1Test {
 
     @Test
     void isValidForBase() {
-
-    }
-
-    @Test
-    void getValue() {
+        String[] a = {"100111b2", "12345b6","012b5", "123bG", "EFbG"};
+        for(int i =0 ; i < a.length; i++){
+            String[] temp = a[i].split("b");
+            //if(Integer.parseInt(temp[i]) > 8)
+            assertEquals(true, Ex1.isValidForBase(temp[0] , Integer.parseInt(String.valueOf(temp[1]))));
+        }
     }
 
     @Test
     void testEquals() {
+        String n1 = "1234b5";
+        String n2 = "1234b5";
+        String n3 = "12345";
+        assertEquals(true, Ex1.equals(n1, n2));
+        assertEquals(false, Ex1.equals(n1, n3));
     }
 
     @Test

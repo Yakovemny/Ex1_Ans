@@ -112,7 +112,7 @@ public class Ex1 {
         return false;
     }
     /**
-     * determines if the number part of the string is valid for the base by making sure the value of the number part is smaller than the base
+     * determines if the number part of the string is valid for the base by making sure that the value of the number part is smaller than the base
      * @param numberPart
      * @param base
      * @return
@@ -123,14 +123,6 @@ public class Ex1 {
             if (value >= base) return false; // Invalid digit for base.
         }
         return true;
-    }
-    public static int getValue(String numberPart, int base) {
-        int value = 0;
-        for (char c : numberPart.toCharArray()) {
-            value += Character.isDigit(c) ? c - '0' : c - 'A' + 10; //either it's a num or a character
-            value*=base;
-        }
-        return value;
     }
 
     /**
