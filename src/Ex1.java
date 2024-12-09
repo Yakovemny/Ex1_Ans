@@ -87,7 +87,6 @@ public class Ex1 {
             ans = convertBasis(num , 10);
         }
 
-        ////////////////////
         return ans;
     }
 

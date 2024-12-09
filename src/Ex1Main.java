@@ -35,7 +35,7 @@ public class Ex1Main {
                     System.out.println("num1 : " + num1 + " value : " + Ex1.number2Int(num1));
                     System.out.println("num2 : " + num2 + " value : " + Ex1.number2Int(num2));
 
-                    break;
+
                 }
                 /////////////////////
             }

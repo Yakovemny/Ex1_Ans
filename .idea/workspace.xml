@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="now working on int2Num">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex1Main">
+  <component name="RunManager" selected="JUnit.Ex1Test.convertBasis">
     <configuration name="Ex1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex1Main" />
       <module name="Ex1Solution" />
@@ -134,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex1Main" />
         <item itemvalue="JUnit.Ex1Test.convertBasis" />
+        <item itemvalue="Application.Ex1Main" />
         <item itemvalue="JUnit.Ex1Test.isNumber" />
         <item itemvalue="Application.checking" />
         <item itemvalue="JUnit.Ex1Test" />
@@ -175,7 +176,7 @@
       <workItem from="1733487626774" duration="1453000" />
       <workItem from="1733651854371" duration="546000" />
       <workItem from="1733673799626" duration="5096000" />
-      <workItem from="1733731069716" duration="6542000" />
+      <workItem from="1733731069716" duration="7615000" />
     </task>
     <task id="LOCAL‎-00001" summary="uploaded to github">
       <option name="closed" value="true" />
@@ -241,7 +242,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733733071187</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎-00009" summary="now working on int2Num">
+      <option name="closed" value="true" />
+      <created>1733739022375</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733739022375</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
