@@ -1,9 +1,9 @@
 BS"D
 #Ex_1 Solution 
-This is a Solution project for the Ex_1 assignment in Cs at Ariel University, Semester A Winter 2024 by Emanuel_y.
-This project aim is to get Strings as two numbers as an input and convert them to other basis [2-16] also, to determine the representation of their multiplication result
-and addition result. Furthermore the program will determine the max of the four numbers.
-In this project I implemented the following methods:
+##This is a Solution project for the Ex_1 assignment in Cs at Ariel University, Semester A Winter 2024 by Emanuel_y.
+##This project aim is to get Strings as two numbers as an input and convert them to other basis [2-16] 
+##also, to determine the representation of their multiplication resultand addition result. Furthermore the program will determine the max of the four numbers.
+###In this project I implemented the following methods:
 -Number2Int Converts a String in the following pattern <numberpart><base><numberOfBasis> to its value in basis 10.
 -Int2Number Calculate the number representation (in basis base) of the given natural number
 -isNumber Checks if the given String (a) is in a valid "number" format.
