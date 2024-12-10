@@ -1,16 +1,20 @@
-BS"D
-#Ex_1 Solution 
-##This is a Solution project for the Ex_1 assignment in Cs at Ariel University, Semester A Winter 2024 by Emanuel_y.
-##This project aim is to get Strings as two numbers as an input and convert them to other basis [2-16] 
-##also, to determine the representation of their multiplication resultand addition result. Furthermore the program will determine the max of the four numbers.
-###In this project I implemented the following methods:
--Number2Int Converts a String in the following pattern <numberpart><base><numberOfBasis> to its value in basis 10.
--Int2Number Calculate the number representation (in basis base) of the given natural number
--isNumber Checks if the given String (a) is in a valid "number" format.
--isValidBase Determines if the base is valid [2-16] (helper function in isNumber)
--isValidForBase Checks if the number part of the string is valid for the base. (helper function in isNumber)
--convert2basis10 Converts a number 'a' to its decimal representation (a helper function for Number2Int).
--isEmpty Checks if there are any 'space' characters.
--equals Checks if the two numbers have the same value.
--maxIndex search for the array index with the largest value.
+## BS"D  
+## Ex_1 Solution  
+
+**Description**  
+This is a solution project for the **Ex_1 assignment** in Computer Science at Ariel University, Semester A, Winter 2024 by Emanuel_y.  
+The aim of this project is to process two numbers represented as strings in various bases (2–16), convert them to other bases, and perform operations on them.  
+
+### Implemented Methods  
+- **`Number2Int`**: Converts a string in the format `<numberPart><base><numberOfBasis>` to its base-10 value.  
+- **`Int2Number`**: Calculates the representation of a given natural number in a specified base.  
+- **`isNumber`**: Validates if the given string follows a correct "number" format.  
+- **`isValidBase`**: Verifies if the base is valid (range: 2–16). *(Helper function for `isNumber`)*  
+- **`isValidForBase`**: Checks if the number part is valid for the specified base. *(Helper function for `isNumber`)*  
+- **`convert2basis10`**: Converts a number to its decimal (base-10) representation. *(Helper function for `Number2Int`)*  
+- **`isEmpty`**: Checks if the input contains any 'space' characters.  
+- **`equals`**: Compares two numbers to check if they are equivalent in value.  
+- **`maxIndex`**: Finds the index of the largest value in an array.  
+
+
 
