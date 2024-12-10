@@ -179,7 +179,6 @@ public class Ex1 {
  */
 public static String int2Number(int num, int base) {
     String ans = ""; //we will use String Builder
-    // add your code here
     if (num < 0 || base > 16 || base < 0) {
         return "";
     }

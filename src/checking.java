@@ -1,5 +1,6 @@
 public class checking {
     public static void main(String[] args) {
+        /*
         String str = "-3b3";
 
         System.out.println(str.charAt(2)); //'b'
@@ -37,6 +38,14 @@ public class checking {
         String[] num1 = num.split("b");
         System.out.println(num.charAt(0));
         System.out.println(num1[0].charAt(0));
+
+
+         */
+        String[] s = {"1", "1b2", "01b2", "123bA", "ABbG", "0bA", "12b3" , "123b4" , "1234b5" , "12345b6" ,
+                "123456b7","12b8" , "78b9" , "23bB" , "32bC" , "43bD", "45bE" , "56bF"};
+        for(int i = 0; i < s.length; i++){
+            System.out.println(Ex1.int2Number(Ex1.number2Int(s[i]) , 8));
+        }
 
     }
 }

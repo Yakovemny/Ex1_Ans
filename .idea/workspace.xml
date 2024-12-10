@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="now working on Testing :)">
+    <list default="true" id="4d5fad8c-d66d-492d-8f79-5d7f217333ea" name="Changes" comment="ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,43 +47,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.checking.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.Ex1Test.convert2Basis10.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ex1Test.convertBasis.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ex1Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ex1Test.isEmpty.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ex1Test.isNumber.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ex1Test.isValidBase.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ex1Test.isValidForBase.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ex1Test.maxIndex.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Ex1Test.testEquals.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/MyProjects/Ex1Solution&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ex1.executor": "Run",
+    "Application.Ex1Main.executor": "Run",
+    "Application.checking.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.Ex1Test.computeNumberTest.executor": "Run",
+    "JUnit.Ex1Test.convert2Basis10.executor": "Run",
+    "JUnit.Ex1Test.convertBasis.executor": "Run",
+    "JUnit.Ex1Test.executor": "Run",
+    "JUnit.Ex1Test.int2NumberTest.executor": "Run",
+    "JUnit.Ex1Test.isBasisNumberTest.executor": "Run",
+    "JUnit.Ex1Test.isEmpty.executor": "Run",
+    "JUnit.Ex1Test.isNumber.executor": "Run",
+    "JUnit.Ex1Test.isValidBase.executor": "Run",
+    "JUnit.Ex1Test.isValidForBase.executor": "Run",
+    "JUnit.Ex1Test.maxIndex.executor": "Run",
+    "JUnit.Ex1Test.maxIndexTest.executor": "Run",
+    "JUnit.Ex1Test.testEquals.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/MyProjects/Ex1Solution",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\MyProjects\Ex1Solution\src" />
@@ -94,52 +99,49 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ex1Test.isValidForBase">
-    <configuration name="Ex1Test.convert2Basis10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Ex1Test.int2NumberTest">
+    <configuration name="checking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checking" />
+      <module name="Ex1Solution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex1Test.computeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ex1Solution" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Ex1Test" />
-      <option name="METHOD_NAME" value="convert2Basis10" />
+      <option name="METHOD_NAME" value="computeNumberTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex1Test.isValidBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex1Test.int2NumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ex1Solution" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Ex1Test" />
-      <option name="METHOD_NAME" value="isValidBase" />
+      <option name="METHOD_NAME" value="int2NumberTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex1Test.isValidForBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex1Test.isBasisNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ex1Solution" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Ex1Test" />
-      <option name="METHOD_NAME" value="isValidForBase" />
+      <option name="METHOD_NAME" value="isBasisNumberTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex1Test.maxIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex1Test.maxIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ex1Solution" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Ex1Test" />
-      <option name="METHOD_NAME" value="maxIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex1Test.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ex1Solution" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ex1Test" />
-      <option name="METHOD_NAME" value="testEquals" />
+      <option name="METHOD_NAME" value="maxIndexTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Ex1Test.isValidForBase" />
-        <item itemvalue="JUnit.Ex1Test.maxIndex" />
-        <item itemvalue="JUnit.Ex1Test.testEquals" />
-        <item itemvalue="JUnit.Ex1Test.isValidBase" />
-        <item itemvalue="JUnit.Ex1Test.convert2Basis10" />
+        <item itemvalue="JUnit.Ex1Test.int2NumberTest" />
+        <item itemvalue="Application.checking" />
+        <item itemvalue="JUnit.Ex1Test.maxIndexTest" />
+        <item itemvalue="JUnit.Ex1Test.isBasisNumberTest" />
+        <item itemvalue="JUnit.Ex1Test.computeNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,10 @@
       <workItem from="1733743334275" duration="910000" />
       <workItem from="1733750442857" duration="4576000" />
       <workItem from="1733772407502" duration="3313000" />
-      <workItem from="1733775800762" duration="358000" />
+      <workItem from="1733775800762" duration="599000" />
+      <workItem from="1733821597044" duration="76000" />
+      <workItem from="1733826987672" duration="1535000" />
+      <workItem from="1733861429789" duration="1264000" />
     </task>
     <task id="LOCAL‎-00001" summary="uploaded to github">
       <option name="closed" value="true" />
@@ -339,7 +344,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1733775732133</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL‎-00019" summary="ready">
+      <option name="closed" value="true" />
+      <created>1733776397058</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL‎-00019" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1733776397058</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +376,7 @@
     <MESSAGE value="need to complete the isvalid method" />
     <MESSAGE value="now working on int2Num" />
     <MESSAGE value="now working on Testing :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="now working on Testing :)" />
+    <MESSAGE value="ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready" />
   </component>
 </project>
