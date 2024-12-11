@@ -231,7 +231,6 @@ public static boolean equals(String n1, String n2) {
             }
 
         }
-        ////////////////////
         return index;
     }
 }
