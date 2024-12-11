@@ -42,7 +42,8 @@ public class Ex1Main {
                     int base = sc.nextInt();
                     System.out.println(num1 + " + " + num2 + " = " + Ex1.int2Number(b10numA+b10numB , base  ));
                     System.out.println(num1 + " * " + num2 + " = " +Ex1.int2Number(b10numA*b10numB , base  ));
-                    System.out.println("Max number over ["+num1+"," + num2+","+Ex1.int2Number(b10numA+b10numB , base) + "," +Ex1.int2Number(b10numA*b10numB , base  )+"] is : "+Math.max(Math.max(Math.max(b10numA , b10numB), addNums), mulNums));
+                    String[] arr = {num1,num2, Ex1.int2Number(mulNums , base) , Ex1.int2Number(addNums , base)};
+                    System.out.println("Max number over ["+num1+"," + num2+","+Ex1.int2Number(b10numA+b10numB , base) + "," +Ex1.int2Number(b10numA*b10numB , base  )+"] is : "+arr[Ex1.maxIndex(arr)]);
                 }
             }
         }
