@@ -36,8 +36,8 @@ public class Ex1Main {
                     int mulNums = b10numA*b10numB;
                     int addNums = b10numA+b10numB;
                     //String[] numA = num1.split("b");
-                    System.out.println("num1 : " + num1 + " value : " + Ex1.number2Int(num1));
-                    System.out.println("num2 : " + num2 + " value : " + Ex1.number2Int(num2));
+                    System.out.println("num1 : " + num1 + " value : " + Ex1.int2Number(Ex1.number2Int(num1) , 10));
+                    System.out.println("num2 : " + num2 + " value : " + Ex1.int2Number(Ex1.number2Int(num2) , 10));
                     System.out.println("Enter a base for output: (a number [2,16]");
                     String base = sc.next();
                     int intBase = Ex1.number2Int(base);

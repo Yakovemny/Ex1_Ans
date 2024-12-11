@@ -181,10 +181,11 @@ public static String int2Number(int num, int base) {
     if (num < 0 || base > 16 || base < 0) {
         return "";
     }
-    if (num == 0) {
-        return "0";
-    }
+
     StringBuilder sb = new StringBuilder();
+    if (num == 0) {
+        sb.append("0");
+    }
     while (num > 0) {
         int remainder = num % base;
         char digit = (remainder < 10)
