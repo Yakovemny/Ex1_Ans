@@ -89,8 +89,7 @@ public class Ex1 {
      * @return
      */
     public static boolean isEmpty(String str) {
-        char[] getChars = str.toCharArray();
-        for (int i = 0; i < getChars.length; i++) {
+        for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == ' ')
                 return true;
         }

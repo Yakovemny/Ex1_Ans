@@ -23,12 +23,12 @@ public class Ex1Main {
             if (!num1.equals("quit") && !num2.equals("quit")) {
                 // add your code here
                 if(!Ex1.isNumber(num1)) {
-                    System.out.println("ERR: num"+ index+ " is in the wrong format" + " is Number: "+Ex1.isNumber(num1) + " value : " + Ex1.number2Int(num1));
+                    System.out.println("ERR: num"+ 1+ " is in the wrong format" + " is Number: "+Ex1.isNumber(num1) + " value : " + Ex1.number2Int(num1));
                 }
                 if(!Ex1.isNumber(num2))
                 {
                     index++;
-                    System.out.println("ERR: num"+ index+ " is in the wrong format" + " is Number: "+Ex1.isNumber(num2) + " value : " + Ex1.number2Int(num2));
+                    System.out.println("ERR: num"+ 2+ " is in the wrong format" + " is Number: "+Ex1.isNumber(num2) + " value : " + Ex1.number2Int(num2));
                 }
                 else {
                     int b10numA = Ex1.number2Int(num1);
