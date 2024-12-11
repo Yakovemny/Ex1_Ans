@@ -178,7 +178,7 @@ public class Ex1 {
  * @return a String representing a number (in base) equals to num, or an empty String (in case of wrong input).
  */
 public static String int2Number(int num, int base) {
-    String ans = ""; //we will use String Builder
+     //we will use String Builder
     if (num < 0 || base > 16 || base < 0) {
         return "";
     }
@@ -207,7 +207,6 @@ public static String int2Number(int num, int base) {
  * @return true if the two numbers have the same values.
  */
 public static boolean equals(String n1, String n2) {
-    boolean ans = true;
     // add your code here
     int num1 = convert2Basis10(n1);
     int num2 = convert2Basis10(n2);

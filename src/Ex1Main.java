@@ -39,11 +39,18 @@ public class Ex1Main {
                     System.out.println("num1 : " + num1 + " value : " + Ex1.number2Int(num1));
                     System.out.println("num2 : " + num2 + " value : " + Ex1.number2Int(num2));
                     System.out.println("Enter a base for output: (a number [2,16]");
-                    int base = sc.nextInt();
-                    System.out.println(num1 + " + " + num2 + " = " + Ex1.int2Number(b10numA+b10numB , base  ));
-                    System.out.println(num1 + " * " + num2 + " = " +Ex1.int2Number(b10numA*b10numB , base  ));
-                    String[] arr = {num1,num2, Ex1.int2Number(mulNums , base) , Ex1.int2Number(addNums , base)};
-                    System.out.println("Max number over ["+num1+"," + num2+","+Ex1.int2Number(b10numA+b10numB , base) + "," +Ex1.int2Number(b10numA*b10numB , base  )+"] is : "+arr[Ex1.maxIndex(arr)]);
+                    String base = sc.next();
+                    int intBase = Ex1.number2Int(base);
+                    while(!Ex1.isValidBase(base)){
+                        System.out.println("The base should be between 2 and 16!");
+                        System.out.println("Enter a base for output: (a number [2,16]");
+                        base = sc.next();
+                    }
+                    System.out.println(num1 + " + " + num2 + " = " + Ex1.int2Number(b10numA + b10numB, intBase));
+                    System.out.println(num1 + " * " + num2 + " = " + Ex1.int2Number(b10numA * b10numB, intBase));
+                    String[] arr = {num1, num2, Ex1.int2Number(mulNums, intBase), Ex1.int2Number(addNums, intBase)};
+                    System.out.println("Max number over [" + num1 + "," + num2 + "," + Ex1.int2Number(b10numA + b10numB, intBase) + "," + Ex1.int2Number(b10numA * b10numB, intBase) + "] is : " + arr[Ex1.maxIndex(arr)]);
+
                 }
             }
         }
