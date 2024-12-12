@@ -109,6 +109,10 @@ public class Ex1 {
         }
         return false;
     }
+    public static boolean isValidBase(int base) {
+        return base >= 2 && base <= 16;
+    }
+
     /**
      * determines if the number part of the string is valid for the base by making sure that the value of the number part is smaller than the base
      * @param numberPart

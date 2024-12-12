@@ -33,7 +33,7 @@ class Ex1Test {
     void int2NumberTest() {
         String[] s = {"1", "1b2", "01b2", "123bA", "ABbG", "0bA", "12b3" , "123b4" , "1234b5" ,
                 "12345b6" , "123456b7","12b8" , "78b9" , "23bB" , "32bC" , "43bD", "45bE" , "56bF"};
-        String[] expected = {"1b8", "1b8","1b8", "173b8" , "253b8" , "0", "5b8", "33b8","302b8","3511b8" , "54533b8", "12b8"
+        String[] expected = {"1b8", "1b8","1b8", "173b8" , "253b8" , "0b8", "5b8", "33b8","302b8","3511b8" , "54533b8", "12b8"
                 , "107b8","31b8","46b8","67b8","75b8","121b8"};
         for(int i=0;i<s.length;i=i+1) {
             assertEquals(expected[i] , Ex1.int2Number(Ex1.number2Int(s[i]) , 8));

@@ -41,10 +41,11 @@ public class Ex1Main {
                     System.out.println("Enter a base for output: (a number [2,16]");
                     String base = sc.next();
                     int intBase = Ex1.number2Int(base);
-                    while(!Ex1.isValidBase(base)){
+                    while(!Ex1.isValidBase(intBase)){
                         System.out.println("The base should be between 2 and 16!");
                         System.out.println("Enter a base for output: (a number [2,16]");
                         base = sc.next();
+                        intBase = Ex1.number2Int(base);
                     }
                     System.out.println(num1 + " + " + num2 + " = " + Ex1.int2Number(b10numA + b10numB, intBase));
                     System.out.println(num1 + " * " + num2 + " = " + Ex1.int2Number(b10numA * b10numB, intBase));
