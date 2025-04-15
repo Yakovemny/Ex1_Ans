@@ -1,5 +1,5 @@
 ## BS"D  
-## Ex_1 Solution  
+## Bases calculator
 
 **Description**  
 This is a solution project for the **Ex_1 assignment** in Computer Science at Ariel University, Semester A, Winter 2024 by Emanuel_y.  
